@@ -22,7 +22,7 @@ def load_data(filename, seq_len, normalise_window):
     if normalise_window:
         result = normalise_windows(result)
 
-    result = np.array(result)
+   # result = np.array(result)
 
     row = round(0.9 * result.shape[0])
     train = result[:int(row), :]

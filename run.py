@@ -19,7 +19,7 @@ def plot_results_multiple(predicted_data, true_data, prediction_len):
         padding = [None for p in range(i * prediction_len)]
         plt.plot(padding + data, label='Prediction')
         plt.legend()
-    plt.show()
+    #plt.show()
 
 #Main Run Thread
 if __name__=='__main__':
